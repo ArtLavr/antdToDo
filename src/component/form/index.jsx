@@ -20,7 +20,7 @@ function TodoForm(props) {
         props.setActiveNewTaskMenu && props.setActiveNewTaskMenu(false);
       }}
       initialValues={{
-        ['text']: formText,
+        text: formText,
       }}
       // onFinish={(values) => {
       //   console.log('Success:', values);

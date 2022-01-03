@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+h2 {
+  color: rgb(162, 171, 179);
+  font-size: 20px;
+}
+input[type='radio'] {
+  cursor: pointer;
+  width: 15px;
+  height: 15px;
+}
+
+button {
+  background-color: #dd4b39;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.mainButton {
+  color: white;
+  height: 40px;
+  width: fit-content;
+  transition: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  padding: 5px 15px;
+  &:focus {
+    opacity: 0.85;
+  }
+  &:active {
+    transform: scale(0.9);
+  }
+}

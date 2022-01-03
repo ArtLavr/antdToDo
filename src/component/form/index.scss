@@ -1,0 +1,16 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  input {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: text;
+    outline: none;
+    height: 80px;
+  }
+  button {
+    width: 20%;
+  }
+}

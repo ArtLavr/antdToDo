@@ -1,0 +1,18 @@
+.todoTask {
+  display: flex;
+  align-items: stretch;
+
+  padding-bottom: 10px;
+  border-bottom: 1px solid #cdcdcd;
+  gap: 10px;
+  p {
+    max-width: 80%;
+    word-break: break-all;
+  }
+}
+.margin-left-button {
+  margin-left: auto;
+}
+.checked-todo {
+  text-decoration: line-through;
+}
